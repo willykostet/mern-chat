@@ -1,7 +1,5 @@
 import { alpha } from '@mui/material/styles';
 
-// ----------------------------------------------------------------------
-
 function getDirection(value = 'bottom') {
   return {
     top: 'to top',
@@ -10,8 +8,6 @@ function getDirection(value = 'bottom') {
     left: 'to left',
   }[value];
 }
-
-// ----------------------------------------------------------------------
 
 export default function cssStyles(theme) {
   return {
